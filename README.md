@@ -1,3 +1,43 @@
+# Test App
+
+A React application with Firebase integration.
+
+## Setup
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Set up Firebase:
+   - Copy `.env.example` to `.env`
+   - Create a Firebase project at [https://console.firebase.google.com/](https://console.firebase.google.com/)
+   - Add a web app to your Firebase project
+   - Fill in your Firebase configuration details in the `.env` file
+
+4. Start the development server:
+   ```
+   npm start
+   ```
+
+## Environment Variables
+
+This project uses environment variables to secure Firebase configuration. To contribute:
+
+1. Copy `.env.example` to `.env`
+2. Create your own Firebase project
+3. Fill in your Firebase project details in the `.env` file
+
+**Note:** Never commit your `.env` file to version control.
+
+## Firebase Security
+
+For production applications, make sure to:
+
+1. Set up proper Firebase Security Rules
+2. Restrict your API key in the Google Cloud Console
+3. Implement proper authentication and authorization
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
