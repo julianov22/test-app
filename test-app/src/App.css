@@ -1,6 +1,22 @@
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.sidebar {
+  width: 252px;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  height: 100vh;
 }
 
 .App-logo {
