@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# The .gitignore file is a configuration file used by Git to determine which files and directories should be ignored and not tracked in version control. It's an essential tool for maintaining a clean repository and protecting sensitive information.
+
+
 # dependencies
 /node_modules
 /.pnp
