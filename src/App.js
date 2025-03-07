@@ -37,7 +37,7 @@ function App() {
             <tr>
               <th>Name</th>
               <th>Picture</th>
-              <th>Creation Date</th>
+              <th>Date</th>
             </tr>
           </thead>
           <tbody>
